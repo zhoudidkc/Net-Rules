@@ -22,8 +22,8 @@ IP-CIDR,52.13.42.120/32,Supercell
 IP-CIDR,52.50.131.212/32,Supercell
 IP-CIDR,54.207.168.84/32,Supercell
 IP-CIDR,54.248.64.192/32,Supercell
-host-suffix, hayday.scinbox.qq.com, Supercell
-host-suffix, supercell.helpshift.com, Supercell
-host-suffix, gc.apple.com, Supercell
-host-keyword, hayday, Supercell
-host-keyword, supercell, Supercell
+#host-suffix, hayday.scinbox.qq.com, Supercell
+#host-suffix, supercell.helpshift.com, Supercell
+#host-suffix, gc.apple.com, Supercell
+#host-keyword, hayday, Supercell
+#host-keyword, supercell, Supercell
