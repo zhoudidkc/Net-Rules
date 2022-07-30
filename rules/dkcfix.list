@@ -1,0 +1,132 @@
+# 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,⛔️ 全部断连
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,⛔️ 全部断连
+domain,118.89.204.198,⛔️ 全部断连
+# 知乎去广告，以下规则的位置越前方越好
+domain,appcloud2.in.zhihu.com,⛔️ 全部断连
+domain,mqtt.zhihu.com,⛔️ 全部断连
+domain,sugar.zhihu.com,⛔️ 全部断连
+USER-AGENT,AVOS*,⛔️ 全部断连
+# 书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
+#已知
+domain-suffix,pangolin-sdk-toutiao.com,⛔️ 全部断连
+#未知
+domain-suffix,xwuad.com,⛔️ 全部断连
+#未知
+domain-suffix,tobapplog.ctobsnssdk.com,⛔️ 全部断连
+#已知
+domain-suffix,pangolin-sdk-toutiao.com,⛔️ 全部断连
+#未知
+domain-suffix,render.shuqireader.com,⛔️ 全部断连
+#未知
+domain-suffix,ali-stats.jpush.cn,⛔️ 全部断连
+#已知
+domain-suffix,toblog.ctobsnssdk.com,⛔️ 全部断连
+#未知
+domain-suffix,sdk.kaijia.com,⛔️ 全部断连
+#未知
+domain-suffix,tobapplog.ctobsnssdk.com,⛔️ 全部断连
+#已知
+domain-suffix,amdc.m.taobao.com,⛔️ 全部断连
+#未知
+domain-suffix,iyes.youku.com,⛔️ 全部断连
+#未知
+domain-suffix,sq.sljkj.com,⛔️ 全部断连
+#未知
+domain-suffix,s2s.adjust.com,⛔️ 全部断连
+# 百度移动广告联盟，可能误杀
+domain-suffix,mobads.baidu.com,⛔️ 全部断连
+# 腾讯广告联盟，可能误杀
+domain-suffix,mi.gdt.qq.com,⛔️ 全部断连
+# 未知
+domain-suffix,jcollection.shuqireader.com,⛔️ 全部断连
+# 未知
+domain-suffix,stats.jpush.cn,⛔️ 全部断连
+# 未知
+domain-suffix,sdk.kaijiawan.com,⛔️ 全部断连
+# 番茄小说广告
+domain,p6-ad-sign.byteimg.com,⛔️ 全部断连
+domain,p9-ad-sign.byteimg.com,⛔️ 全部断连
+domain-suffix,byteimg.com,direct
+domain,dig.bdurl.net,⛔️ 全部断连
+domain-keyword,zijieapi,⛔️ 全部断连
+domain,mcs.snssdk.com,⛔️ 全部断连
+domain,tnc3-alisc1.snssdk.com,⛔️ 全部断连
+domain,security-lq.snssdk.com,⛔️ 全部断连
+domain,tnc3-aliec2.snssdk.com,⛔️ 全部断连
+domain,i.snssdk.com,⛔️ 全部断连
+domain,is.snssdk.com,⛔️ 全部断连
+domain,v6-novelapp.ixigua.com,⛔️ 全部断连
+domain,*novelapp.ixigua.com,⛔️ 全部断连
+domain,msync-im1-vip6-std.easemob.com,⛔️ 全部断连
+domain,apd-pcdnwxlogin.teg.tencent-cloud.net,⛔️ 全部断连
+domain,api.iegadp.qq.com,⛔️ 全部断连
+domain,sf3-ttcdn-tos.pstatp.com,⛔️ 全部断连
+domain-suffix,pglstatp-toutiao.com,⛔️ 全部断连
+domain,*default.ixigua.com,⛔️ 全部断连
+domain,activity-ag.awemeughun.com,⛔️ 全部断连
+domain-suffix,byteorge.com,⛔️ 全部断连
+domain-suffix,bytegoofy.com,⛔️ 全部断连
+domain-suffix,bytedance.com,⛔️ 全部断连
+ip-cidr,49.71.37.101/32,⛔️ 全部断连,no-resolve
+ip-cidr,117.71.105.23/32,⛔️ 全部断连,no-resolve
+ip-cidr,218.94.207.205/32,⛔️ 全部断连,no-resolve
+ip-cidr,117.92.229.188/32,⛔️ 全部断连,no-resolve
+ip-cidr,101.36.166.16/32,⛔️ 全部断连,no-resolve
+ip-cidr,180.96.2.114/32,⛔️ 全部断连,no-resolve
+#腾讯视频广告
+domain-suffix, tetrack.qq.com, ⛔️ 全部断连
+domain-suffix, tpns.tencent.com, ⛔️ 全部断连
+domain-suffix, api.poll.video.qq.com, ⛔️ 全部断连
+domain-suffix, static-res.qq.com, ⛔️ 全部断连
+domain-suffix, stat.tpns.tencent.com, ⛔️ 全部断连
+domain, h.trace.qq.com, ⛔️ 全部断连
+domain, h.trace.qq.com, ⛔️ 全部断连
+#爱奇艺广告
+domain, cr-status.iqiyi.com, ⛔️ 全部断连
+domain-suffix, cupid.iqiyi.com, ⛔️ 全部断连
+domain, f74f7f7765f8a2f6.ngaa.net.cn, ⛔️ 全部断连
+domain, ef-dongfeng.tanx.com, ⛔️ 全部断连
+domain, iqiyim.adtrack.enlightent.cn, ⛔️ 全部断连
+#百度输入法
+domain-keyword,jomodns,⛔️ 全部断连
+domain,res.mi.baidu.com,⛔️ 全部断连
+domain,r6.mo.baidu.com,⛔️ 全部断连
+# QQ音乐去广告
+domain,adstats.tencentmusic.com,⛔️ 全部断连
+domain,ad.tencentmusic.com,⛔️ 全部断连
+domain,adcdn.tencentmusic.com,⛔️ 全部断连
+domain,adexpo.tencentmusic.com,⛔️ 全部断连
+domain,adclick.tencentmusic.com,⛔️ 全部断连
+domain,us.l.qq.com,⛔️ 全部断连
+#tieba
+domain,aod-image.baidu.com,⛔️ 全部断连
+domain,js-ad.a.yximgs.com,⛔️ 全部断连
+domain,mobads-pre-config.cdn.bcebos.com,⛔️ 全部断连
+domain,nadvideo2.baidu.com,⛔️ 全部断连
+#YouTube 去底部广告
+domain-suffix, ehg-youtube.hitbox.com, ⛔️ 全部断连
+#高德地图
+domain,optimus-ads.amap.com,⛔️ 全部断连
+#backiee广告屏蔽
+domain-suffix,stats.g.doubleclick.net,⛔️ 全部断连
+domain-suffix,pagead2.googlesyndication.com,⛔️ 全部断连
+domain-suffix,googleads.g.doubleclick.net,⛔️ 全部断连
+domain-suffix,app-measurement.com,⛔️ 全部断连
+domain-suffix,ade.googlesyndication.com,⛔️ 全部断连
+domain-suffix,googleads4.g.doubleclick.net,⛔️ 全部断连
+#qq空间广告屏蔽
+domain,d3g.qq.com,⛔️ 全部断连
+domain,bsrv.qq.com,⛔️ 全部断连
+domain,sq.bls.mdt.qq.com,⛔️ 全部断连
+#domain,btrace.qq.com,⛔️ 全部断连
+domain,adsmind.gdtimg.com,⛔️ 全部断连
+domain,xj-landing.gdtimg.com,⛔️ 全部断连
+#其他广告
+domain,adjd.scdsvdsczx.cn,⛔️ 全部断连
+domain,rr3---sn-ni57rn7d.gvt1.com,⛔️ 全部断连
+domain,pagead2.googleadservices.com,⛔️ 全部断连
+#LIUB
+domain-suffix,t66y.com,✈️ 节点选择
+domain-suffix,hjd2048.com,✈️ 节点选择
+domain-suffix,91porn.com,✈️ 节点选择
