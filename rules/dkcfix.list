@@ -4,14 +4,6 @@ DOMAIN,mqtt.zhihu.com,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 IP-CIDR,118.89.204.198/32,REJECT-DROP,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT-DROP,no-resolve
-USER-AGENT,AVOS*,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/brand\/question\/\d+/card\?,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/launch_v2\?,REJECT
-URL-REGEX,^https?:\/\/(api\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/explore\/entry\/tips,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4/(questions|anwsers)\/\d+/related-readings,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/api\/v4\/answers\/\d+\/recommendations,REJECT
-URL-REGEX,^https?:\/\/(www\.zhihu\.com|(103\.41\.167\.(226|234|235|236)))\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
 # 书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 #已知
 domain-suffix,pangolin-sdk-toutiao.com,REJECT
