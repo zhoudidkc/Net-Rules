@@ -4,6 +4,7 @@
 [General]
 force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
 
+[Rule]
 # 书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
